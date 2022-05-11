@@ -8,6 +8,6 @@ public class GreetController {
 
     @GetMapping("/greet")
     public String greetMessage() {
-        return "welcome to external tomcat deployed spring boot app using jenkins!!";
+        return "Hi Niranjan ,welcome to external tomcat deployed spring boot app using jenkins!!";
     }
 }
